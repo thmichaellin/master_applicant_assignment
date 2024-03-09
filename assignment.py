@@ -151,6 +151,7 @@ class Article:
         """
         Plot the distribution of the word counts.
         """
+
         frequencies = []
         for key in self.words:
             for element in self.words[key].get_list():
